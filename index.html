@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/fav.png" type="image/x-icon">
+
+    <!-- Theme Color-->
+    <meta name="theme-color" content="#ff7b00" />
+
+    <!-- UNICONS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Add favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <!--Title-->
+    <title>Aricelio Moura | Software Engineer</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <!--logo-->
+            <a style="text-decoration: none;" href="http://www.ariceliomoura.com/">
+                <div class="nav-logo">
+                    <p class="nav-name">A Moura</p>
+                    <span>.</span>
+                </div>
+            </a>
+            <!--menu-->
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Início</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">Sobre</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projetos</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contato</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <!--baixar_curriculo-->
+            <div class="nav-button">
+                <a target="_blank" href="assets/Profile.pdf"><button class="btn">Baixar Curriculo <i
+                            class="uil uil-file-alt"></i></button></a>
+            </div>
+            <!--função para ação do menu em js-->
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+            <!-- -------------- FEATURED BOX ---------------- -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>Aricelio Moura</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>Sou <span class="typedText"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>
+                            Desenvolvedor Frontend apaixonado por criação de sites e sistemas visualmente
+                            impressionantes e fáceis de usar.
+                        </p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <a target="_blank"
+                            href="https://wa.me/5585982170079?text=Ol%C3%A1,%20venho%20do%20seu%20site."><button
+                                class="btn blue-btn">Fale Comigo!</button></a>
+                        <a target="_blank" href="assets/Profile.pdf"><button class="btn">Baixar Curriculo <i
+                                    class="uil uil-file-alt"></i></button></a>
+                    </div>
+                    <div class="social_icons">
+                        <a target="_blank" href="https://www.instagram.com/ariceliomoura/">
+                            <div class="icon"><i class="uil uil-instagram"></i></div>
+                        </a>
+                        <a target="_blank" href="https://www.linkedin.com/in/aricelio-moura-87070b236/">
+                            <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                        </a>
+                        <a target="_blank" href="https://github.com/ariceliom">
+                            <div class="icon"><i class="uil uil-github-alt"></i></div>
+                        </a>
+                        <a target="_blank" href="https://wa.me/5585982170079?text=Ol%C3%A1,%20venho%20do%20seu%20site.">
+                            <div class="icon"><i class="uil uil-whatsapp"></i></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="https://avatars.githubusercontent.com/u/89526853?v=4" alt="avatar">
+                    </div>
+                </div>
+                <div class="scroll-icon-box">
+                    <a href="#about" class="scroll-btn">
+                        <i class="uil uil-mouse-alt"></i>
+                        <p>Scroll Down</p>
+                    </a>
+                </div>
+            </section>
+
+            <!-- -------------- ABOUT BOX ---------------- -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>Sobre</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h3>Olá, Sou Aricelio Moura</h3>
+                            <p>
+                                Estou em processo de migração de carreira para desenvolvimento. Atualmente cursando
+                                Engenharia de Software na UniFanor e outros cursos de capacitação em tecnologias de
+                                desenvolvimento web e app.
+                            </p>
+                            <div class="about-btn">
+                                <button class="btn">Download CV <i class="uil uil-import"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Frontend</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Bootstrap</span>
+                                <span>JavaScript</span>
+                                <span>React</span>
+                                <span>Angular</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Backend</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>PHP</span>
+                                <span>JAVA</span>
+                                <span>Python</span>
+                                <span>Node</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Database</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>Firebase</span>
+                                <span>MySQL</span>
+                                <span>PLSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- -------------- PROJECT BOX ---------------- -->
+
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projetos</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        <i class="uil uil-instagram"></i>
+                        <h3>Bio Links</h3>
+                        <label>Página de links para redes sóciais.</label>
+                        <a href="https://ariceliomoura.com/biolink/" target="_blank" rel="noopener noreferrer">
+                            Ver projeto
+                        </a>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-clipboard-notes"></i>
+                        <h3>Tarefas</h3>
+                        <label>Bloco de tarefas com <br>armazenamento local.</label>
+                        <a href="https://ariceliomoura.com/projects/lista/" target="_blank" rel="noopener noreferrer">
+                            Ver projeto
+                        </a>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-browser"></i>
+                        <h3>Portfólio 1.0</h3>
+                        <label>Uma das páginas web <br>criada para meu portfólio.</label>
+                        <a href="https://ariceliomoura.com/projects/moura/" target="_blank" rel="noopener noreferrer">
+                            Ver projeto
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- -------------- CONTACT BOX ---------------- -->
+
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Contato</h1>
+                    <span>Você tem um projeto em mente, entre em contato comigo!</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Me envia um email <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"><a style="text-decoration: none !important;"
+                                        href="mailto:contato@ariceliomoura.com?subject='Olá, venho do seu site!'">
+                                        contato@ariceliomoura.com</a></i></p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Se preferir, me liga <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-phone"><a style="text-decoration: none !important"
+                                        href="tel:+5585982170079"> 85 982170079</a></i></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+            <div class="top-footer">
+                <p>Aricelio Moura .</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Início</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">Sobre</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projetos</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <a target="_blank" href="https://www.instagram.com/ariceliomoura/">
+                    <div class="icon"><i class="uil uil-instagram"></i></div>
+                </a>
+                <a target="_blank" href="https://www.linkedin.com/in/aricelio-moura-87070b236/">
+                    <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                </a>
+                <a target="_blank" href="https://github.com/ariceliom">
+                    <div class="icon"><i class="uil uil-github-alt"></i></div>
+                </a>
+                <a target="_blank" href="https://wa.me/5585982170079?text=Ol%C3%A1,%20venho%20do%20seu%20site.">
+                    <div class="icon"><i class="uil uil-whatsapp"></i></div>
+                </a>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Aricelio Moura |
+                        <script>document.write(new Date().getFullYear());</script>
+                    </a> - All rights reserved
+                </p>
+            </div>
+        </footer>
+
+
+
+    </div>
+
+    <!--back-to-top-->
+    <button class="back-to-top-btn">
+        <div>
+            <i class="uil uil-arrow-up"></i>
+        </div>
+    </button>
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="js/typing.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="js/unpkg.js"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="js/script.js"></script>
+
+    <!-- API ENVIO DE EMAIL -->
+    <script src="https://cdn.emailjs.com/sdk/2.3.2/emailjs.min.js"></script>
+</body>
+
+</html>
